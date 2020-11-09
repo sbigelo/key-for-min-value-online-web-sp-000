@@ -12,5 +12,5 @@ def key_for_min_value(name_hash)
 end
 
 def select_winner(passengers)
- passengers.each {|key, value| return key if value == passengers.values.max
+ passengers.each {|key, value| return key if value == passengers.values.max}
 end
