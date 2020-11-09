@@ -12,6 +12,6 @@ def key_for_min_value(name_hash)
 end
 
 def select_winner(passengers)
- passengers.key_for_min_value
+ passengers.invert.min&.first
 end
 
