@@ -12,6 +12,8 @@ def key_for_min_value(name_hash)
 end
 
 def select_winner(passengers)
- passengers.min_by{|k, v| if v return k}
+ passengers.each do |key, value|
+   value.min = hash
+ end
 end
 
