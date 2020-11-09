@@ -12,6 +12,7 @@ def key_for_min_value(name_hash)
 end
 
 def select_winner(passengers)
- passengers.invert.min&.first
+ key = passengers.sort{|a,b| a[1] <=> b[1]}.first
+  puts key
 end
 
