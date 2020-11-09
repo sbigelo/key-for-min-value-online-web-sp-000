@@ -11,14 +11,11 @@ def key_for_min_value(name_hash)
   hash
 end
 
-def select_winner(name_hash)
- lowest_key = name_hash.reduce do |key, value|
-    key.last > value.last ? value : key
-  end
-    if name_hash == {}
-      lowest_key
-    else
-      lowest_key.first
-    end
+def select_winner(hash)
+ lowest_key = nil
+ lowest_value = nil
+ hash.each do |key, value|
+   if 
+ end
 end
 
