@@ -13,6 +13,6 @@ end
 
 def select_winner(passengers)
  key = passengers.sort{|a,b| a[1] <=> b[1]}.first
-  puts key
+  key
 end
 
