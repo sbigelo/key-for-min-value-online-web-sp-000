@@ -15,7 +15,7 @@ def select_winner(hash)
  lowest_key = nil
  lowest_value = nil
  hash.each do |key, value|
-   if lowest_value == nil || v >
+   if lowest_value == nil || v < lowest_key
  end
 end
 
