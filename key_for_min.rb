@@ -12,7 +12,6 @@ def key_for_min_value(name_hash)
 end
 
 def select_winner(passengers)
- key = passengers.sort{|a,b| a[1] <=> b[1]}.first
-  key
+ passengers.min_by{|k, v| if v return k}
 end
 
